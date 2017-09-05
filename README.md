@@ -1,28 +1,35 @@
-# VrRefactor
+Vr-Refactor
+===================
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
+Esse repositório visa migrar a versão atual do projeto VR Portal para a versão 4 do AngularJS.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Dependências do projeto
+-------------
 
-## Code scaffolding
+ 1. [NodeJS](https://nodejs.org/en/download/)
+ 2. [Angular-Cli](https://github.com/angular/angular-cli)
+Juntamente com o Angular-CLI, serão instaladas outras dependências como o **WebPack**, **RxJS** e outros.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Instalando o projeto
+-------------
+Após a instalação das dependências, no seu terminal digite o seguinte comando: `$ npm install`
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+#### <i class="icon-hdd"></i> Executando o projeto localmente
+Execute `ng serve`
+ Sua aplicação automaticamente estará rodando em `localhost:4200`
+ Caso queira alterar a porta em que o projeto está sendo executado, basta rodar o comando `ng serve --host 0.0.0.0 --port 4201` 
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### <i class="icon-folder-open"></i> Build
+Execute o comando `ng build` . Todo os arquivos buildados estarão dentro de `dist`. Para buildar para produção use a flag `-prod`.
 
-## Running end-to-end tests
+#### <i class="icon-folder-open"></i> Testes unitários
+Execute o comando `ng test` para utilizar os testes padrão usando [Karma](https://karma-runner.github.io/1.0/index.html)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+#### <i class="icon-pencil"></i> Criando modulos, componentes, etc.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Execute `ng generate component nome-do-componente`.
+ou `ng generate module nome-do-modulo`.
+O mesmo comando pode ser utilizado para gerar diretivas, serviços e classes.

@@ -1,3 +1,29 @@
+@import '../../assets/scss/_variables';
+@import '../../assets/scss/_fonts';
+
 #dashboard-component {
-    
+    color: $black;
+    font-family: 'gillsans-semibold';
+    width: 1170px;
+    h1 {
+        text-transform: uppercase;
+    }
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        li {
+            margin-left: 15px;
+            padding-bottom: 5px;
+            font-size: 17px;
+            cursor: pointer;
+            &:first-child {
+                margin-left:0;
+            }
+            &:hover {
+                color: $vr-green;
+                border-bottom: 2px solid $vr-green;
+            }
+        }
+    }
 }

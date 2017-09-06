@@ -7,6 +7,7 @@
     width: 1170px;
     h1 {
         text-transform: uppercase;
+        margin-bottom:20px;
     }
     ul {
         width: 100%;
@@ -17,6 +18,7 @@
             padding-bottom: 5px;
             font-size: 17px;
             cursor: pointer;
+            text-transform: uppercase;
             &:first-child {
                 margin-left:0;
             }

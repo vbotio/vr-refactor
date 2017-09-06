@@ -18,7 +18,7 @@ Após a instalação das dependências, no seu terminal digite o seguinte comand
 
 Executando o projeto localmente
 -------------
-Execute `ng serve`
+Execute `ng serve -o`
  Sua aplicação automaticamente estará rodando em `localhost:4200`
  Caso queira alterar a porta em que o projeto está sendo executado, basta rodar o comando `ng serve --host 0.0.0.0 --port 4201` 
 

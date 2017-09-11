@@ -24,17 +24,14 @@ export class DashboardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    for (var i in this.menu) {
-      console.log(i.item);
-    }
-        
+    console.log(this.menu)    
   }
 }
 
 export class Menu {
   constructor(
     public _id: number,
-    public item: integer64
+    public name: string
   ) {
 
   }

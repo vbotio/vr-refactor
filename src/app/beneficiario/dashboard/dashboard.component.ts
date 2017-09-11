@@ -6,33 +6,33 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent implements OnInit {
-  menu = [
+  menu: Menu = [
     {
-      'item': 'meus cartões',
-      '_id': 1
+      name: 'meus cartões',
+      _id: 1
     },
     {
-      'item': 'consulta rápida',
-      '_id': 2,
+      name: 'consulta rápida',
+      _id: 2,
     },
     {
-      'item': 'desbloquear cartão',
-      '_id': 3
+      name: 'desbloquear cartão',
+      _id: 3
     }
   ]
   
   constructor() { }
 
   ngOnInit() {
-    console.log(this.menu)    
+        
   }
 }
 
 export class Menu {
   constructor(
-    public _id: number,
-    public name: string
-  ) {
+     name: string,
+     _id: number
+    ) {
 
   }
 }

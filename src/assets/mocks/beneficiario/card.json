@@ -1,0 +1,23 @@
+{
+    "numeroCartao": 2373291099822823,
+    "isBlocked": false,
+    "finalCartão": 6230,
+    "saldo": 4985.96,
+    "proximoBeneficio": "A confirmar",
+    "gastoMedio": 0,
+    "consumo": 49860,
+    "transacoes": {
+        "descricao": "25 de julho",
+        "detalhes": [{
+            "descricao": "tarifa de manutenção",
+            "valor": -12,
+            "aut": 11663869
+        }, {
+            "descricao": "tarifa de manutenção",
+            "valor": -15,
+            "aut": 12653668
+        }]
+    },
+    "ultimoBeneficio": 10
+
+}

@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './dashboard/dashboard.component'
+import { DashboardComponent } from './beneficiario/dashboard/dashboard.component'
 
 
 @NgModule({
@@ -15,7 +15,7 @@ import { DashboardComponent } from './dashboard/dashboard.component'
     BrowserModule,
     RouterModule.forRoot([
       {
-        path: 'dashboard',
+        path: 'beneficiario/dashboard',
         component: DashboardComponent
       }
     ])

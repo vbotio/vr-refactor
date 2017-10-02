@@ -1,0 +1,12 @@
+<header id="appHeader">
+  <div class="wrapper">
+      <img class="logo" src="assets/img/logo-vr.png" alt="vr logo">
+      <ul>
+        <li [ngClass]="{active: item == 'empresa'}" *ngFor="let item of menuItems">{{ item }}</li>
+      </ul>
+      <div class="user">
+        <div class="photo"></div>
+        nome do usuário
+      </div>
+    </div>
+</header>

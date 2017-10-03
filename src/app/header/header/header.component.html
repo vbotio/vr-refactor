@@ -7,8 +7,8 @@
       <div class="user">
         <div class="photo"></div>
         <span>nome do usuário</span>
-        <i class="arrow">arrow</i>
-        <div class="sub-menu">
+        <i class="arrow" (click)="showSubMenu()">arrow</i>
+        <div class="sub-menu" *ngIf="subMenu">
           <ul>
             <li>Meus ajustes</li>
             <li>Alterar senha de acesso</li>

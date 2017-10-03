@@ -57,12 +57,14 @@
             }
             .arrow {
                 float: right;
+                user-select: none; 
             }
             .sub-menu {
                 @include size(276px, 231px);
                 background: #1d2024;
                 position: absolute;
-                top: 50px;
+                top: 51px;
+                left: -15px;
                 padding: 13px;
                 font-family: 'gillsans-light';
                 border-radius: 0 0 3px 3px;

@@ -7,11 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   menuItems: string[];
+  subMenu:boolean = false;
+  
+  showSubMenu() {
+    this.subMenu = !this.subMenu;
+  }
   constructor() {
     this.menuItems = ['empresa', 'estabelecimento', 'você'];
-   }
+  }
 
   ngOnInit() {
+    
   }
 
 }

@@ -4,14 +4,15 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './beneficiario/dashboard/dashboard.component';
-import { HeaderComponent } from './header/header/header.component'
-
+import { HeaderComponent } from './header/header/header.component';
+import { FooterComponent } from './footer/footer/footer.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    // DashboardComponent,
+    DashboardComponent,
     HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

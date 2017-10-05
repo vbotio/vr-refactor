@@ -31,7 +31,9 @@ Deploy em Prod (Heroku temporariamente)
 -------------
 Após ser invitado para o projeto no Heroku pelo admin, execute os seguintes comandos no seu terminal
  1. heroku git:remote -a https://git.heroku.com/vr-front-refactor.git
+ 
  opcional - para checar se o comando executou com sucesso, rode ` git remote -v`
+ 
  O resultado esperado é parecido com: 
  ` heroku  https://git.heroku.com/vr-front-refactor.git (fetch)`
  ` heroku  https://git.heroku.com/vr-front-refactor.git (push)`

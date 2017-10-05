@@ -30,6 +30,7 @@ Execute o comando `ng build` . Todo os arquivos buildados estarão dentro de `di
 Deploy em Prod (Heroku temporariamente)
 -------------
 Após ser invitado para o projeto no Heroku pelo admin, execute os seguintes comandos no seu terminal
+ 
  1. heroku git:remote -a https://git.heroku.com/vr-front-refactor.git
  
  __opcional__ - para checar se o comando executou com sucesso, rode ` git remote -v`

@@ -44,7 +44,7 @@ Após ser invitado para o projeto no Heroku pelo admin, execute os seguintes com
  2. git add .
  3. git commit -m "mensagem para commitar para o bitbucket"
  4. git push origin suabranch
- 5. git push heroku suabranch //aqui sim é feito o deploy - lembre-se que aqui já é produção, entao double check se sua branch está ok
+ 5. git push heroku master //só aceita commit vindo da master
  
 Testes unitários
 -------------

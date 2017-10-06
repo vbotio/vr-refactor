@@ -1,0 +1,76 @@
+@import "../../../assets/scss/_fonts.scss";
+@import "../../../assets/scss/_mixins.scss";
+@import "../../../assets/scss/_variables.scss";
+
+#appFooter {
+    width: 100%;
+    min-height: 250px;
+    background:$black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    .wrapper {
+        width: 1170px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+        flex-wrap:wrap;
+        align-items: flex-start;
+        ul.menu-footer {
+            float: left;
+            color: white;
+            li {
+                font-family: 'gillsans-light';
+                font-size: 24px;
+                cursor: pointer;
+                margin-bottom: 10px;
+                a {
+                    color:#969696;
+                    text-decoration: none;
+                    &:hover {
+                        color:$vr-green;
+                    }
+                }
+            }
+            li.menu-title {
+                text-transform: uppercase;
+                font-family: "gillsans-semibold";
+                font-size: 26px;
+                padding-bottom:5px;
+                border-bottom: 3px solid $vr-green;
+                margin-bottom:30px;
+            }
+        }
+        .social {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            flex-wrap: wrap;
+            ul {
+                width: 380px;
+                display: flex;
+                justify-content: space-around;
+                li {
+                    @include size(80px, 80px);
+                    border-radius: 100%;
+                    border:2px solid $vr-green;
+                }
+            }
+            p {
+                color: white;
+                font-size: 14px;
+                font-family: 'gillsans-light';
+                width: 100%;
+                text-align: center;
+                margin: 60px 0 ;
+                a {
+                    color: $vr-green;
+                }
+            }
+        }
+    }
+}

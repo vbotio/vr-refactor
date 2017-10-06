@@ -1,3 +1,21 @@
-<p>
-  footer works!
-</p>
+<footer id="appFooter">
+  <div class="wrapper">
+    <ul class="menu-footer" *ngFor="let i of menuItems">
+        <li class="menu-title">
+          {{ i.title }}
+        </li>
+        <li *ngFor="let sub of i.item">
+          <a href="">{{sub}}</a>
+        </li>
+      </ul>
+      <div class="social">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <p>© 2016 VR Benefícios - CNPJ: 02.535.864/0001-33 - Todos os direitos reservados - <a href="">Política de Privacidade</a></p>
+      </div>
+  </div>
+</footer>

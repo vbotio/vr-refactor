@@ -19,10 +19,6 @@ export class FooterComponent implements OnInit {
       {
         "title": "Aprenda",
         "item": ['FAQ', 'Vídeos', 'Experimente']
-      },
-      {
-        "title": "Download",
-        "item": ['teste', 'teste 2']
       }
     ]
    }

@@ -1,3 +1,4 @@
+import { HeaderService } from './header.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,12 +13,12 @@ export class HeaderComponent implements OnInit {
   showSubMenu() {
     this.subMenu = !this.subMenu;
   }
-  constructor() {
-    this.menuItems = ['empresa', 'estabelecimento', 'você'];
+  constructor(private headerService: HeaderService) {
+    
   }
 
   ngOnInit() {
-    
+    this.menuItems = this.headerService.getMenuItems();
   }
 
 }

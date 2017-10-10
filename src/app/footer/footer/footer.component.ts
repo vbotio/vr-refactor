@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FooterService } from './footer.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,23 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   menuItems:{}; 
-  constructor() {
-    this.menuItems = [{
-      "title": "Produtos",
-      "item": ['Conheça os produtos', 'Solicitar Proposta', 'Efetuar Login']
-      },
-      {
-        "title": "Empresa",
-        "item": ['História', 'Fale conosco', 'Trabalhe na VR']
-      },
-      {
-        "title": "Aprenda",
-        "item": ['FAQ', 'Vídeos', 'Experimente']
-      }
-    ]
+  constructor(private footerService: FooterService) {
+    
    }
     
   ngOnInit() {
+    this.menuItems = this.footerService.getMenuItems();
   }
 
 }

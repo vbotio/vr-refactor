@@ -36,10 +36,11 @@ Após ser invitado para o projeto no Heroku pelo admin, execute os seguintes com
  __opcional__ - para checar se o comando executou com sucesso, rode ` git remote -v`
  
  O resultado esperado é parecido com: 
- ` heroku  https://git.heroku.com/vr-front-refactor.git (fetch)`
- ` heroku  https://git.heroku.com/vr-front-refactor.git (push)`
- ` origin  https://vitorbocciovr@bitbucket.org/vrbeneficiosteam/vr-refactor.git (fetch)`
- ` origin  https://vitorbocciovr@bitbucket.org/vrbeneficiosteam/vr-refactor.git (push)`
+
+ ` heroku  https://git.heroku.com/vr-front-refactor.git (fetch) `
+ ` heroku  https://git.heroku.com/vr-front-refactor.git (push) `
+ ` origin  https://github.com/vbotio/vr-refactor.git (fetch) `
+ ` origin  https://github.com/vbotio/vr-refactor.git (push) `
 
  2. git add .
  3. git commit -m "mensagem para commitar para o bitbucket"
@@ -49,9 +50,3 @@ Após ser invitado para o projeto no Heroku pelo admin, execute os seguintes com
 Testes unitários
 -------------
 Execute o comando `ng test` para utilizar os testes padrão usando [Karma](https://karma-runner.github.io/1.0/index.html)
-
-Criando modulos, componentes, etc.
---------------
-Execute `ng generate component nome-do-componente`.
-ou `ng generate module nome-do-modulo`.
-O mesmo comando pode ser utilizado para gerar diretivas, serviços e classes.

@@ -8,7 +8,7 @@ import { FooterService } from './footer/footer/footer.service';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './beneficiario/dashboard/dashboard.component';
 import { HeaderComponent } from './header/header/header.component';
-import { FooterComponent } from './footer/footer/footer.component'
+import { FooterComponent } from './footer/footer/footer.component';
 
 @NgModule({
   declarations: [
